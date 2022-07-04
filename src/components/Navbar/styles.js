@@ -47,12 +47,11 @@ export default makeStyles((theme) => ({
     textAlign: 'center',
     marginLeft: '20px',
     marginRight: '60px',
-    fontWeight: '700',
+    fontWeight: '500',
     [theme.breakpoints.down('sm')]: {
 
       marginRight: 0,
       marginLeft: 10,
-      fontWeight: '500'
 
     },
   },
