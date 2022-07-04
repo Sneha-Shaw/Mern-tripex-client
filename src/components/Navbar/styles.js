@@ -48,6 +48,13 @@ export default makeStyles((theme) => ({
     marginLeft: '20px',
     marginRight: '60px',
     fontWeight: '700',
+    [theme.breakpoints.down('sm')]: {
+
+      marginRight: 0,
+      marginLeft: 10,
+      fontWeight: '500'
+
+    },
   },
   brandContainer: {
     display: 'flex',
