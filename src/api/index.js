@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://mern-tripex.herokuapp.com/' });
+const API = axios.create({ baseURL: 'https://rich-cyan-pangolin-belt.cyclic.app/' });
 
 //checking if user data can fetched or not
 
